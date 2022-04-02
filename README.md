@@ -2,6 +2,21 @@
 
 Configuration files for VSCode
 
+### settings.json
+
+Open the command palette (either with F1 or Ctrl+Shift+P)
+Type `open settings`
+Select `Open Settings (JSON)`
+Replace with settings.json from this repo
+
+
+### keybindings.json
+
+Open the command palette (either with F1 or Ctrl+Shift+P)
+Type: "Open Keyboard Shortcuts" (JSON) command.
+Select `Open Keyboard Shortcuts (JSON)`
+Replace with keybindings.json from this repo
+
 
 ### Suggested: Remap ESC to CAPS LOCK
 
