@@ -113,5 +113,6 @@
     ],
     "vim.commandLineModeKeyBindingsNonRecursive": [
     ],
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": false,
+    "terminal.integrated.shell.osx": "/bin/bash"
 }
