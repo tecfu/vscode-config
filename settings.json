@@ -1,8 +1,8 @@
 {
+    "vim.useCtrlKeys": true,
     "vim.leader": "<space>",
     "vim.easymotion": true,
     "vim.handleKeys": {
-        "<C-c>": false,
         "<C-c>": false,
         "<C-s>": false,
         "<C-q>": false
@@ -26,7 +26,7 @@
             "after": ["i", "<cr>", "<esc>", "k"]
         },
         {
-            "before": ["<leader>", "p"], 
+            "before": ["<leader>", "p"],
             "after":  ["\"", "+", "p"]
         },
         {
@@ -60,6 +60,13 @@
             "commands": [
                 ":q!"
             ]
+        },
+        {
+            "before": ["leader"],
+            "after": ["l"],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
         }
     ],
     "vim.operatorPendingModeKeyBindings": [
@@ -67,7 +74,7 @@
             "before": ["<leader>", "a"],
             "after": ["^"]
         },
-        { 
+        {
             "before": ["<leader>", ";"],
             "after": ["$"]
         }
@@ -80,7 +87,7 @@
         {
             "before": ["<leader>", ";"],
             "after": ["$"]
-        },
+        }
    ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -114,5 +121,15 @@
     "vim.commandLineModeKeyBindingsNonRecursive": [
     ],
     "extensions.autoUpdate": false,
-    "terminal.integrated.shell.osx": "/bin/bash"
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "redhat.telemetry.enabled": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnPaste": true,
+    "eslint.format.enable": true
 }
