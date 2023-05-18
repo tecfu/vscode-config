@@ -9,86 +9,166 @@
     },
     "keyboard.dispatch": "keyCode",
     "vim.normalModeKeyBindings": [
-       {
-            "before": ["<leader>", "a"],
-            "after": ["^"]
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "^"
+            ]
         },
         {
-            "before": ["<leader>", ";"],
-            "after": ["$"]
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "after": [
+                "$"
+            ]
         },
         {
-            "before": ["<leader>", "j"],
-            "after": ["<shift>", "j"]
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "<shift>",
+                "j"
+            ]
         },
         {
-            "before": ["<leader>", "k"],
-            "after": ["i", "<cr>", "<esc>", "k"]
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "after": [
+                "i",
+                "<cr>",
+                "<esc>",
+                "k"
+            ]
         },
         {
-            "before": ["<leader>", "p"],
-            "after":  ["\"", "+", "p"]
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "p"
+            ]
         },
         {
-            "before": ["<C-j>"],
-            "after": ["1", "0", "j"]
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "1",
+                "0",
+                "j"
+            ]
         },
         {
-            "before": ["<C-k>"],
-            "after": ["1", "0", "k"]
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "1",
+                "0",
+                "k"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["f"],
-            "after": ["leader", "leader", "s"]
+            "before": [
+                "f"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "s"
+            ]
         },
         {
-            "before": ["J"],
+            "before": [
+                "J"
+            ],
             "commands": [
                 "workbench.action.previousEditorInGroup"
             ]
         },
         {
-            "before": ["K"],
+            "before": [
+                "K"
+            ],
             "commands": [
                 "workbench.action.nextEditorInGroup"
             ]
         },
         {
-            "before": ["W"],
+            "before": [
+                "W"
+            ],
             "commands": [
                 ":q!"
             ]
         },
         {
-            "before": ["leader"],
-            "after": ["l"],
+            "before": [
+                "leader"
+            ],
+            "after": [
+                "l"
+            ],
             "commands": [
-                "editor.action.formatDocument"
+                "editor.action.formatDocument",
+                "eslint.executeAutofix"
             ]
-        }
+        },
     ],
     "vim.operatorPendingModeKeyBindings": [
         {
-            "before": ["<leader>", "a"],
-            "after": ["^"]
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "^"
+            ]
         },
         {
-            "before": ["<leader>", ";"],
-            "after": ["$"]
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "after": [
+                "$"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
         {
-            "before": ["<leader>", "a"],
-            "after": ["^"]
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "^"
+            ]
         },
         {
-            "before": ["<leader>", ";"],
-            "after": ["$"]
-        }
-   ],
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+    ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -107,19 +187,29 @@
             ]
         },
         {
-            "before": ["<C-j>"],
-            "after": ["1", "0", "j"]
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "1",
+                "0",
+                "j"
+            ]
         },
         {
-            "before": ["<C-k>"],
-            "after": ["1", "0", "k"]
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "1",
+                "0",
+                "k"
+            ]
         }
     ],
     "vim.statusBarColors.insert": "",
-    "vim.commandLineModeKeyBindings": [
-    ],
-    "vim.commandLineModeKeyBindingsNonRecursive": [
-    ],
+    "vim.commandLineModeKeyBindings": [],
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
     "extensions.autoUpdate": false,
     "terminal.integrated.shell.osx": "/bin/bash",
     "security.workspace.trust.untrustedFiles": "open",
@@ -131,5 +221,5 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "editor.formatOnPaste": true,
-    "eslint.format.enable": true
+    "eslint.format.enable": true,
 }
