@@ -15,6 +15,9 @@ cat vscode-extensions.list | xargs -L 1 code --install-extension
   - For VSCodium use the `codium` command instead
   - Enable the `code` and `codium` shell commands via the command palette:
       <S-C>P -> Shell -> Add Cod{e|ium} to Path
+  - To manually install an extension:
+    - marketplace.visualstudiocode.com/* > Resources > Download Extension
+    - `code --install-extension downloaded-extension.vsix`
 
 ## Configuration files for VSCode
 
