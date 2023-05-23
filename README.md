@@ -1,6 +1,18 @@
 # vscode-config
 
-Configuration files for VSCode
+## Extensions for vscode
+
+- Export Extensions
+```sh
+code --list-extensions > vscode-extensions.list
+```
+
+- Import Extension
+```
+cat vscode-extensions.list | xargs -L 1 code --install-extension
+```
+
+## Configuration files for VSCode
 
 ### settings.json
 
@@ -17,6 +29,7 @@ Type: "Open Keyboard Shortcuts" (JSON) command.
 Select `Open Keyboard Shortcuts (JSON)`
 Replace with keybindings.json from this repo
 
+## Optional
 
 ### Suggested: Remap ESC to CAPS LOCK
 
