@@ -6,7 +6,7 @@
   },
   {
     "key": "ctrl+w w",
-    "command": "workbench.action.terminal.toggleTerminal",
+    "command": "workbench.view.explorer",
     "when": "terminal.active"
   },
   {
@@ -15,11 +15,31 @@
     "when": "terminal.active"
   },
   {
-      "key": "ctrl+t",
-      "command": "workbench.action.files.newUntitledFile"
+    "key": "ctrl+t",
+    "command": "workbench.action.files.newUntitledFile"
   },
   {
     "key": "shift+w",
     "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "shift+k",
+    "command": "workbench.action.nextEditorInGroup",
+    "when": "!(terminalFocus || panelFocus)"
+  },
+  {
+    "key": "shift+j",
+    "command": "workbench.action.previousEditorInGroup",
+    "when": "!(terminalFocus || panelFocus)"
+  },
+  {
+    "key": "shift+k",
+    "command": "workbench.action.nextPanelView",
+    "when": "!editorFocus || terminalFocus || panelFocus"
+  },
+  {
+    "key": "shift+j",
+    "command": "workbench.action.previousPanelView",
+    "when": "!editorFocus || terminalFocus || panelFocus"
   }
 ]

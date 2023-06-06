@@ -93,22 +93,22 @@
                 "s"
             ]
         },
-        {
-            "before": [
-                "J"
-            ],
-            "commands": [
-                "workbench.action.previousEditorInGroup"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "workbench.action.nextEditorInGroup"
-            ]
-        },
+//        {
+//            "before": [
+//                "J"
+//            ],
+//            "commands": [
+//                "workbench.action.previousEditorInGroup"
+//            ]
+//        },
+//        {
+//            "before": [
+//                "K"
+//            ],
+//            "commands": [
+//                "workbench.action.nextEditorInGroup"
+//            ]
+//        },
         {
             "before": [
                 "W"
@@ -127,6 +127,14 @@
             "commands": [
                 "editor.action.formatDocument",
                 "eslint.executeAutofix"
+            ]
+        },
+        {
+            "before": [
+                "<S-t>"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
             ]
         },
     ],
@@ -224,4 +232,8 @@
     "editor.formatOnPaste": true,
     "eslint.format.enable": true,
     "window.zoomLevel": 1.5,
+    "tabnine.experimentalAutoImports": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
