@@ -3,31 +3,38 @@
 ## Extensions for vscode
 
 - Export Extensions
+
 ```sh
 code --list-extensions > vscode-extensions.list
 ```
 
 - Import Extension
+
 ```
 cat vscode-extensions.list | xargs -L 1 code --install-extension
 ```
-*Notes*
-  - For VSCodium use the `codium` command instead
-  - Enable the `code` and `codium` shell commands via the command palette:
-      <S-C>P -> Shell -> Add Cod{e|ium} to Path
-  - To manually install an extension:
-    - marketplace.visualstudiocode.com/* > Resources > Download Extension
-    - `code --install-extension downloaded-extension.vsix`
+
+_Notes_
+
+- For VSCodium use the `codium` command instead
+- Enable the `code` and `codium` shell commands via the command palette:
+  <S-C>P -> Shell -> Add Cod{e|ium} to Path
+- To manually install an extension:
+  - marketplace.visualstudiocode.com/\* > Resources > Download Extension
+  - `code --install-extension downloaded-extension.vsix`
 
 ## Configuration files for VSCode
 
 ### settings.json
 
+- Windows %APPDATA%\Code\User\settings.json
+- macOS $HOME/Library/Application\ Support/Code/User/settings.json
+- Linux $HOME/.config/Code/User/settings.json
+
 Open the command palette (either with F1 or Ctrl+Shift+P)
 Type `open settings`
 Select `Open Settings (JSON)`
 Replace with settings.json from this repo
-
 
 ### keybindings.json
 
@@ -40,7 +47,8 @@ Replace with keybindings.json from this repo
 
 ### Suggested: Remap ESC to CAPS LOCK
 
-- Linux ~/.xmodmap 
+- Linux ~/.xmodmap
+
 ```
 ! Swap caps lock and escape
 remove Lock = Caps_Lock
@@ -50,7 +58,6 @@ add Lock = Caps_Lock
 ```
 
 - Windows [ililim/dual-key-remap](https://github.com/ililim/dual-key-remap)
-
 
 ## License
 
