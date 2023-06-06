@@ -1,4 +1,5 @@
 {
+    "json.schemaDownload.enable": true,
     "vim.useCtrlKeys": true,
     "vim.leader": "<space>",
     "vim.easymotion": true,
