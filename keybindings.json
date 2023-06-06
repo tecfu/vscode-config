@@ -1,5 +1,10 @@
 [
   {
+    "key": "ctrl+space",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
     "key": "ctrl+w w",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
