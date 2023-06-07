@@ -27,12 +27,23 @@ _Notes_
 
 ### settings.json
 
+_VSCode_
+
 - Windows
   %APPDATA%\Code\User\settings.json
 - macOS
   $HOME/Library/Application\ Support/Code/User/settings.json
 - Linux
   $HOME/.config/Code/User/settings.json
+
+_VSCodium_
+
+- Windows
+  %APPDATA%\VSCodium\User\settings.json
+- macOS
+  $HOME/Library/Application\ Support/VSCodium/User/settings.json
+- Linux
+  $HOME/.config/VSCodium/User/settings.json
 
 Open the command palette (either with F1 or Ctrl+Shift+P)
 Type `open settings`
@@ -41,12 +52,23 @@ Replace with settings.json from this repo
 
 ### keybindings.json
 
+_VSCode_
+
 - Windows:
   %UserProfile%\AppData\Roaming\Code\User\keybindings.json
 - macOS:
   ~/Library/Application\ Support/Code/User/keybindings.json
 - Linux:
   $HOME/.config/Code/User/keybindings.json
+
+_VSCodium_
+
+- Windows
+  %APPDATA%\VSCodium\User\keybindings.json
+- macOS
+  $HOME/Library/Application\ Support/VSCodium/User/keybindings.json
+- Linux
+  $HOME/.config/VSCodium/User/keybindings.json
 
 Open the command palette (either with F1 or Ctrl+Shift+P)
 Type: "Open Keyboard Shortcuts" (JSON) command.
