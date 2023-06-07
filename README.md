@@ -27,9 +27,12 @@ _Notes_
 
 ### settings.json
 
-- Windows %APPDATA%\Code\User\settings.json
-- macOS $HOME/Library/Application\ Support/Code/User/settings.json
-- Linux $HOME/.config/Code/User/settings.json
+- Windows
+  %APPDATA%\Code\User\settings.json
+- macOS
+  $HOME/Library/Application\ Support/Code/User/settings.json
+- Linux
+  $HOME/.config/Code/User/settings.json
 
 Open the command palette (either with F1 or Ctrl+Shift+P)
 Type `open settings`
@@ -37,6 +40,13 @@ Select `Open Settings (JSON)`
 Replace with settings.json from this repo
 
 ### keybindings.json
+
+- Windows:
+  %UserProfile%\AppData\Roaming\Code\User\keybindings.json
+- macOS:
+  ~/Library/Application\ Support/Code/User/keybindings.json
+- Linux:
+  $HOME/.config/Code/User/keybindings.json
 
 Open the command palette (either with F1 or Ctrl+Shift+P)
 Type: "Open Keyboard Shortcuts" (JSON) command.
