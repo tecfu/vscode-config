@@ -10,11 +10,6 @@
     "when": "terminal.active"
   },
   {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
     "key": "ctrl+t",
     "command": "workbench.action.files.newUntitledFile"
   },
@@ -41,5 +36,26 @@
     "key": "shift+j",
     "command": "workbench.action.previousPanelView",
     "when": "!editorFocus || terminalFocus || panelFocus"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+B",
+    "command": "editor.debug.action.toggleBreakpoint",
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.debug.stepInto",
+  },
+  {
+    "key": "ctrl+'",
+    "command": "workbench.action.debug.stepOver",
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.debug.continue",
   }
 ]
