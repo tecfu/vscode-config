@@ -1,5 +1,8 @@
 {
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.formatOnPaste": true,
+    "editor.fontSize": 12,
+    "editor.wordWrap": "on",
     "eslint.format.enable": true,
     "extensions.autoUpdate": false,
     "[json]": {
@@ -221,4 +224,5 @@
     "vim.commandLineModeKeyBindings": [],
     "vim.commandLineModeKeyBindingsNonRecursive": [],
     "window.zoomLevel": 1.5,
+    "terminal.integrated.fontSize": 12,
 }
