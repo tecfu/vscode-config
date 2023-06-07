@@ -1,5 +1,23 @@
 {
+    "editor.formatOnPaste": true,
+    "eslint.format.enable": true,
+    "extensions.autoUpdate": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "json.schemaDownload.enable": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "keyboard.dispatch": "keyCode",
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.validate.enable": true,
     "vim.useCtrlKeys": true,
     "vim.leader": "<space>",
     "vim.easymotion": true,
@@ -8,7 +26,6 @@
         "<C-s>": false,
         "<C-q>": false
     },
-    "keyboard.dispatch": "keyCode",
     "vim.normalModeKeyBindings": [
         {
             "before": [
@@ -93,22 +110,6 @@
                 "s"
             ]
         },
-//        {
-//            "before": [
-//                "J"
-//            ],
-//            "commands": [
-//                "workbench.action.previousEditorInGroup"
-//            ]
-//        },
-//        {
-//            "before": [
-//                "K"
-//            ],
-//            "commands": [
-//                "workbench.action.nextEditorInGroup"
-//            ]
-//        },
         {
             "before": [
                 "W"
@@ -219,21 +220,5 @@
     "vim.statusBarColors.insert": "",
     "vim.commandLineModeKeyBindings": [],
     "vim.commandLineModeKeyBindingsNonRecursive": [],
-    "extensions.autoUpdate": false,
-    "terminal.integrated.shell.osx": "/bin/bash",
-    "security.workspace.trust.untrustedFiles": "open",
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "redhat.telemetry.enabled": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "editor.formatOnPaste": true,
-    "eslint.format.enable": true,
     "window.zoomLevel": 1.5,
-    "tabnine.experimentalAutoImports": true,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
 }
