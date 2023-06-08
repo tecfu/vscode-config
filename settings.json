@@ -123,12 +123,9 @@
         },
         {
             "before": [
-                "leader"
+                "<leader>", "l"
             ],
-            "after": [
-                "l"
-            ],
-            "commands": [
+           "commands": [
                 "editor.action.formatDocument",
                 "eslint.executeAutofix"
             ]
@@ -225,4 +222,5 @@
     "vim.commandLineModeKeyBindingsNonRecursive": [],
     "window.zoomLevel": 1.5,
     "terminal.integrated.fontSize": 12,
+    "typescript.updateImportsOnFileMove.enabled": "always",
 }
