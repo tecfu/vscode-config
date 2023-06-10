@@ -48,15 +48,26 @@
     "command": "-workbench.action.closeActiveEditor"
   },
   {
-    "key": "shift+k",
+    "key": "ctrl+shift+k",
     "command": "workbench.action.nextPanelView",
     "when": "!editorFocus || terminalFocus || panelFocus"
   },
   {
-    "key": "shift+j",
+    "key": "ctrl+shift+j",
     "command": "workbench.action.previousPanelView",
     "when": "!editorFocus || terminalFocus || panelFocus"
   },
+  {
+    "key": "cmd+shift+k",
+    "command": "workbench.action.nextPanelView",
+    "when": "!editorFocus || terminalFocus || panelFocus"
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.action.previousPanelView",
+    "when": "!editorFocus || terminalFocus || panelFocus"
+  },
+
   {
     "key": "ctrl+i",
     "command": "editor.action.showHover",
