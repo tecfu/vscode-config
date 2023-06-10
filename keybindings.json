@@ -88,5 +88,29 @@
   {
     "key": "ctrl+\\",
     "command": "workbench.action.debug.continue",
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.debug.stop",
+  },
+  {
+    "key": "cmd+B",
+    "command": "editor.debug.action.toggleBreakpoint",
+  },
+  {
+    "key": "cmd+;",
+    "command": "workbench.action.debug.stepInto",
+  },
+  {
+    "key": "cmd+'",
+    "command": "workbench.action.debug.stepOver",
+  },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.debug.continue",
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.debug.stop",
   }
 ]
