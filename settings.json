@@ -17,6 +17,7 @@
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.defaultProfile.osx": "JavaScript Debug Terminal",
     "terminal.integrated.shell.osx": "/bin/bash",
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
