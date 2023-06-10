@@ -1,5 +1,35 @@
 [
   {
+    "key": "cmd+t",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+j",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "down",
+      "by": "wrappedLine",
+      "value": 10
+    },
+  },
+  {
+    "key": "cmd+k",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "up",
+      "by": "wrappedLine",
+      "value": 10
+    },
+  },
+  {
+    // preferences => keyboard => spotlight => uncheck spotlight search
+    "key": "cmd+space",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
     "key": "ctrl+space",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
@@ -16,16 +46,6 @@
   {
     "key": "shift+w",
     "command": "-workbench.action.closeActiveEditor"
-  },
-  {
-    "key": "shift+k",
-    "command": "workbench.action.nextEditorInGroup",
-    "when": "!(terminalFocus || panelFocus)"
-  },
-  {
-    "key": "shift+j",
-    "command": "workbench.action.previousEditorInGroup",
-    "when": "!(terminalFocus || panelFocus)"
   },
   {
     "key": "shift+k",
