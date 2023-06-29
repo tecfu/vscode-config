@@ -21,10 +21,12 @@ ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
 ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-audio
+ms-vsliveshare.vsliveshare-pack
 octref.vetur
 qhoekman.language-plantuml
-shd101wyy.markdown-preview-enhanced
+sendhil.vscode-file-explorer-menu
 SonarSource.sonarlint-vscode
+TabNine.tabnine-vscode
 VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 vscodevim.vim
