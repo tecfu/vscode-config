@@ -8,6 +8,7 @@ esbenp.prettier-vscode
 Gruntfuggly.todo-tree
 hashicorp.terraform
 kisstkondoros.vscode-codemetrics
+Llam4u.nerdtree
 mhutchie.git-graph
 ms-azuretools.vscode-docker
 ms-python.isort
@@ -24,7 +25,7 @@ ms-vsliveshare.vsliveshare-audio
 ms-vsliveshare.vsliveshare-pack
 octref.vetur
 qhoekman.language-plantuml
-sendhil.vscode-file-explorer-menu
+rlivings39.fzf-quick-open
 SonarSource.sonarlint-vscode
 TabNine.tabnine-vscode
 VisualStudioExptTeam.intellicode-api-usage-examples

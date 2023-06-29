@@ -14,6 +14,8 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "keyboard.dispatch": "keyCode",
+    "nerdtree.hideSidebarWhenOpenFile": false,
+    "nerdtree.alwaysShowSidebar": true,
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "tabnine.experimentalAutoImports": true,
@@ -28,8 +30,9 @@
     "vim.easymotion": true,
     "vim.handleKeys": {
         "<C-c>": false,
+        "<C-n>": false,
+        "<C-q>": false,
         "<C-s>": false,
-        "<C-q>": false
     },
     "vim.normalModeKeyBindings": [
         {
@@ -103,6 +106,22 @@
                 "k"
             ]
         },
+        {
+            "before": [
+                "gr"
+            ],
+            "commands": [
+                "editor.action.showReferences"
+            ],
+        },
+        // {
+        //     "before": [
+        //         "gi"
+        //     ],
+        //     "commands": [
+        //         "editor.action.showDefinitionPreviewHover"
+        //     ],
+        // },
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -141,9 +160,10 @@
         },
         {
             "before": [
-                "<leader>", "l"
+                "<leader>",
+                "l"
             ],
-           "commands": [
+            "commands": [
                 "editor.action.formatDocument",
                 "eslint.executeAutofix"
             ]
