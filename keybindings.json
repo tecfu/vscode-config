@@ -82,26 +82,26 @@
     "key": "ctrl+t",
     "command": "workbench.action.files.newUntitledFile"
   },
-  {
-    "key": "shift+k",
-    "command": "workbench.action.nextEditorInGroup",
-    "when": "!(terminalFocus || panelFocus)"
-  },
-  {
-    "key": "shift+j",
-    "command": "workbench.action.previousEditorInGroup",
-    "when": "!(terminalFocus || panelFocus)"
-  },
-  {
-    "key": "shift+k",
-    "command": "workbench.action.nextPanelView",
-    "when": "!editorFocus || terminalFocus || panelFocus"
-  },
-  {
-    "key": "shift+j",
-    "command": "workbench.action.previousPanelView",
-    "when": "!editorFocus || terminalFocus || panelFocus"
-  },
+  // {
+  //   "key": "shift+k",
+  //   "command": "workbench.action.nextEditorInGroup",
+  //   "when": "!(terminalFocus || panelFocus)"
+  // },
+  // {
+  //   "key": "shift+j",
+  //   "command": "workbench.action.previousEditorInGroup",
+  //   "when": "!(terminalFocus || panelFocus)"
+  // },
+  // {
+  //   "key": "shift+k",
+  //   "command": "workbench.action.nextPanelView",
+  //   "when": "!editorFocus || terminalFocus || panelFocus"
+  // },
+  // {
+  //   "key": "shift+j",
+  //   "command": "workbench.action.previousPanelView",
+  //   "when": "!editorFocus || terminalFocus || panelFocus"
+  // },
   {
     "key": "ctrl+;",
     "command": "workbench.action.debug.stepInto",

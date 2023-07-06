@@ -264,4 +264,7 @@
     "debug.console.fontSize": 10,
     "interactiveSession.editor.fontSize": 10,
     "scm.inputFontSize": 10,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
 }
