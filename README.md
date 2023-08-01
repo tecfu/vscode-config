@@ -2,16 +2,32 @@
 
 ## Extensions for vscode
 
-- Export Extensions
+### Export Extensions
+
+- Linux/Mac
 
 ```sh
 code --list-extensions > vscode-extensions.list
 ```
 
-- Import Extension
+- Windows (Powershell)
+
+```powershell
+code --list-extensions | Out-File -FilePath vscode-extensions.list
+```
+
+### Import Extension
+
+- Linux/Mac
 
 ```
 cat vscode-extensions.list | xargs -L 1 code --install-extension
+```
+
+- Windows (Powershell)
+
+```powershell
+Get-Content vscode-extensions.list | ForEach-Object { code --install-extension $_ }
 ```
 
 _Notes_
