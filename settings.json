@@ -255,6 +255,7 @@
             ]
         }
     ],
+    "vim.foldfix": true,
     "vim.statusBarColors.insert": "",
     "vim.commandLineModeKeyBindings": [],
     "vim.commandLineModeKeyBindingsNonRecursive": [],
