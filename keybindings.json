@@ -24,7 +24,10 @@
     "command": "runCommands",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus",
     "args": {
-      "commands": ["explorer.openAndPassFocus", "workbench.view.explorer"]
+      "commands": [
+        "explorer.openAndPassFocus",
+        "workbench.view.explorer"
+      ]
     }
   },
   {
@@ -77,8 +80,8 @@
   },
   {
     "key": "shift+w",
-    "command": "workbench.action.closeActiveEditor",
-    "when": "!editorFocus || terminalFocus || panelFocus"
+    "when": "editorTextFocus == false && !inputFocus",
+    "command": "workbench.action.closeActiveEditor"
   },
   {
     "key": "ctrl+t",
