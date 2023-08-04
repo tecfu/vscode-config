@@ -114,6 +114,15 @@
                 "editor.action.showReferences"
             ],
         },
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                //"editor.action.hover"
+                "editor.debug.action.showDebugHover"
+            ],
+        },
         // {
         //     "before": [
         //         "gi"
@@ -261,6 +270,10 @@
     "vim.commandLineModeKeyBindingsNonRecursive": [],
     "window.zoomLevel": 1.0,
     "terminal.integrated.fontSize": 10,
+    "workbench.colorCustomizations": {
+        //"tab.activeBorder": "#ff0000",
+        "tab.activeBackground": "#26549e"
+    },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "debug.console.fontSize": 10,
     "interactiveSession.editor.fontSize": 10,
