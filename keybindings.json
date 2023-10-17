@@ -1,4 +1,46 @@
 [
+  {
+    "key": "ctrl+shift+down",
+    "command": "-workbench.action.terminal.scrollDown",
+    "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "-workbench.action.terminal.scrollUp",
+    "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "runCommands",
+    "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive",
+    "args": {
+      "commands": [
+        "workbench.action.terminal.scrollDown",
+        "workbench.action.terminal.scrollDown"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "runCommands",
+    "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive",
+    "args": {
+      "commands": [
+        "workbench.action.terminal.scrollUp",
+        "workbench.action.terminal.scrollUp"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.scrollDownPage",
+    "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive",
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.scrollUpPage",
+    "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive",
+  },
   // {
   //   "key": "a",
   //   "command": "vscodeFileExplorerMenu.addChildNode",
@@ -90,6 +132,7 @@
   },
   {
     "key": "ctrl+w w",
+    //"command": "workbench.action.navigateEditorGroups",
     "command": "workbench.view.explorer",
     "when": "terminal.active"
   },
@@ -123,14 +166,14 @@
   //   "when": "!(terminalFocus || panelFocus)"
   // },
   {
-    "key": "ctrl+shift+k",
+    "key": "shift+tab shift+k",
     "command": "workbench.action.nextPanelView",
-    "when": "(!editorFocus || terminalFocus || panelFocus)"
+    "when": "panelFocus || terminalFocus || !editorFocus"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "shift+tab shift+j",
     "command": "workbench.action.previousPanelView",
-    "when": "(!editorFocus || terminalFocus || panelFocus)"
+    "when": "panelFocus || terminalFocus || !editorFocus"
   },
   {
     "key": "ctrl+;",
@@ -165,5 +208,25 @@
   {
     "key": "ctrl+shift+space",
     "command": "editor.debug.action.toggleBreakpoint"
-  }
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "-bookmarks.jumpToPrevious",
+    "when": "editorTextFocus"
+  },
 ]
