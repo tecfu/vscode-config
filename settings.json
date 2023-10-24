@@ -125,6 +125,64 @@
         },
         // {
         //     "before": [
+        //         "t"
+        //     ],
+        //     "commands": [
+        //         "workbench.action.focusSideBar"
+        //     ],
+        //     "when": "!sideBarFocus",
+        // },
+        {
+            "before": [
+                "t"
+            ],
+            "commands": [
+                // { // Unbind unconditional default using "minus" (-) before command
+                //     "command": "-workbench.action.focusSideBar"
+                // },
+                {
+                    "command": "workbench.action.toggleSidebarVisibility",
+                },
+                // { // Move focus to the SideBar if not (!) there
+                //     "when": "!sideBarVisible",
+                //     "command": "workbench.action.focusSideBar"
+                // },
+                // { // Move focus to the Editor, if currently in the SideBar
+                //     "when": "sideBarVisible",
+                //     "command": "workbench.action.focusActiveEditorGroup"
+                // },
+            ],
+        },
+        // extension keybindings
+        {
+            "before": [
+                "m",
+                "a"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ],
+        },
+        {
+            "before": [
+                "]",
+                "'"
+            ],
+            "commands": [
+                "bookmarks.jumpToNext"
+            ],
+        },
+        {
+            "before": [
+                "[",
+                "'"
+            ],
+            "commands": [
+                "bookmarks.jumpToPrevious"
+            ],
+        },
+        // {
+        //     "before": [
         //         "gi"
         //     ],
         //     "commands": [
@@ -223,6 +281,15 @@
             ],
             "after": [
                 "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "commands": [
+                "editor.action.formatSelection"
             ]
         },
     ],
