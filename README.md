@@ -16,7 +16,7 @@ code --list-extensions > vscode-extensions.list
 code --list-extensions | Out-File -FilePath vscode-extensions.list
 ```
 
-### Import Extension
+### Import Extensions
 
 - Linux/Mac
 
