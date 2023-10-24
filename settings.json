@@ -165,8 +165,8 @@
         },
         {
             "before": [
-                "]",
-                "'"
+                "m",
+                "j"
             ],
             "commands": [
                 "bookmarks.jumpToNext"
@@ -174,8 +174,8 @@
         },
         {
             "before": [
-                "[",
-                "'"
+                "m",
+                "k"
             ],
             "commands": [
                 "bookmarks.jumpToPrevious"
