@@ -1,5 +1,9 @@
 [
   {
+    "key": "ctrl+q",
+    "command": "workbench.action.quit"
+  },
+  {
     "key": "ctrl+shift+down",
     "command": "-workbench.action.terminal.scrollDown",
     "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive"
