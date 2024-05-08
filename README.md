@@ -1,5 +1,11 @@
 # vscode-config
 
+## Beware
+
+- VSCode gives no option to persist the undo stack between sessions. If you want undo intact, never close VSCode.
+
+https://github.com/microsoft/vscode/issues/43555
+
 ## Extensions for vscode
 
 ### Export Extensions
@@ -84,7 +90,7 @@ Replace with settings.json from this repo
 
 ### keybindings.json
 
-_VSCode_
+#### VSCode
 
 - Windows:
   %UserProfile%\AppData\Roaming\Code\User\keybindings.json
@@ -93,7 +99,7 @@ _VSCode_
 - Linux:
   $HOME/.config/Code/User/keybindings.json
 
-_VSCodium_
+#### VSCodium
 
 - Windows
   %APPDATA%\VSCodium\User\keybindings.json
