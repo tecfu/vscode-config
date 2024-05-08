@@ -39,6 +39,22 @@ _Notes_
   - marketplace.visualstudiocode.com/\* > Resources > Download Extension
   - `code --install-extension downloaded-extension.vsix`
 
+### Delete All Extensions
+
+Linux/MAC:
+
+```
+rm -rf ~/.vscode/extensions
+```
+
+Windows:
+
+```
+rd -r %USERPROFILE%\.vscode\extensions
+```
+
+See also: https://stackoverflow.com/questions/36746857/completely-uninstall-vs-code-extensions
+
 ## Configuration files for VSCode
 
 ### settings.json
