@@ -348,4 +348,27 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "yaml.format.enable": true,
+    "yaml.trace.server": "verbose",
+    "yaml.customTags": [
+        "!And scalar",
+        "!If scalar",
+        "!Not",
+        "!Equals scalar",
+        "!Or scalar",
+        "!FindInMap scalar",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt sequence",
+        "!GetAZs",
+        "!ImportValue sequence",
+        "!Select sequence",
+        "!Split sequence",
+        "!Join sequence"
+    ],
 }
