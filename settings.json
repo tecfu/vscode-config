@@ -1,7 +1,7 @@
 {
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.formatOnPaste": true,
-    "editor.fontSize": 10,
+    "editor.fontSize": 14,
     "editor.wordWrap": "on",
     "eslint.format.enable": true,
     "extensions.autoUpdate": false,
@@ -235,14 +235,6 @@
                 "eslint.executeAutofix"
             ]
         },
-        {
-            "before": [
-                "<S-t>"
-            ],
-            "commands": [
-                "workbench.action.terminal.toggleTerminal"
-            ]
-        },
     ],
     "vim.operatorPendingModeKeyBindings": [
         {
@@ -333,17 +325,19 @@
     ],
     "vim.foldfix": true,
     "vim.statusBarColors.insert": "",
-    "vim.commandLineModeKeyBindings": [],
+    "vim.commandLineModeKeyBindings": [
+    
+    ],
     "vim.commandLineModeKeyBindingsNonRecursive": [],
     "window.zoomLevel": 1.0,
-    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.fontSize": 14,
     "workbench.colorCustomizations": {
         //"tab.activeBorder": "#ff0000",
         "tab.activeBackground": "#26549e"
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "debug.console.fontSize": 10,
-    "interactiveSession.editor.fontSize": 10,
+    "interactiveSession.editor.fontSize": 14,
     "scm.inputFontSize": 10,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -371,4 +365,5 @@
         "!Split sequence",
         "!Join sequence"
     ],
+    "terminal.integrated.defaultProfile.linux": "JavaScript Debug Terminal",
 }

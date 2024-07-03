@@ -233,4 +233,8 @@
     "command": "-bookmarks.jumpToPrevious",
     "when": "editorTextFocus"
   },
+  {
+    "key": "ctrl+9",
+    "command": "workbench.panel.chat.view.copilot.toggleVisibility"
+  },
 ]
