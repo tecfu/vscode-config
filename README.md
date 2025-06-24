@@ -30,13 +30,21 @@ code --list-extensions | Out-File -FilePath vscode-extensions.list
 cat vscode-extensions.list | xargs -L 1 code --install-extension
 ```
 
+- Windows Git Bash
+
+We need to account for line break differences between Windows and Unix systems. The following command will work in Git Bash on Windows:
+
+```
+cat vscode-extensions.list | tr -d '\r' | xargs -L 1 code --install-extension
+```
+
 - Windows (Powershell)
 
 ```powershell
 Get-Content vscode-extensions.list | ForEach-Object { code --install-extension $_ }
 ```
 
-_Notes_
+#### Notes
 
 - For VSCodium use the `codium` command instead
 - Enable the `code` and `codium` shell commands via the command palette:
