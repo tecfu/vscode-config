@@ -53,6 +53,24 @@ Get-Content vscode-extensions.list | ForEach-Object { code --install-extension $
   - marketplace.visualstudiocode.com/\* > Resources > Download Extension
   - `code --install-extension downloaded-extension.vsix`
 
+### Troubleshooting
+
+#### Error: self signed certificate in certificate chain
+
+When attempting to install extensions on a corporate network, you may encounter an error like `Error while installing extensions: self signed certificate in certificate chain`.
+
+This error occurs because the corporate network uses a proxy with an SSL certificate that is not trusted by your machine. Your development tools, including VS Code, cannot validate the connection and refuse to download the extensions.
+
+There are several ways to address this:
+
+1.  **Install the Corporate Root CA Certificate (Recommended)**: The most secure and permanent solution is to obtain the root CA certificate from your IT department and install it in your system's trust store. This will allow your system to trust the corporate proxy.
+
+2.  **Temporarily Disable the Proxy**: If your organization's policy and network configuration allow it, you may be able to temporarily disconnect from the proxy (e.g., disconnect from the VPN or disable GlobalProtect). If you can do this and still have internet access, you can proceed with the installation. **Warning:** This may be against your company's IT policy and could disable your internet access.
+
+3.  **Workarounds (May Not Work)**: In some cases, you can bypass the SSL check. These methods are not guaranteed to work in highly restrictive environments.
+    *   **Setting in `settings.json`**: Add `"http.proxyStrictSSL": false` to your `settings.json` file.
+    *   **Environment Variable**: Set the `NODE_TLS_REJECT_UNAUTHORIZED=0` environment variable in your terminal session before running the installation command.
+
 ### Delete All Extensions
 
 Linux/MAC:
