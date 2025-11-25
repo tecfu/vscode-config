@@ -366,4 +366,16 @@
         "!Join sequence"
     ],
     "terminal.integrated.defaultProfile.linux": "JavaScript Debug Terminal",
+    "workbench.editorAssociations": {
+        "*.STL": "stlViewer.previewEditor"
+    },
+    "editor.defaultFormatter": null,
+    "refactai.addressURL": "Refact",
+    "refactai.apiKey": "ui0Hm04yuByDCLnWJROy5FC2",
+    "remote.defaultExtensionsIfInstalledLocally": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "github.copilot.nextEditSuggestions.enabled": true
 }
