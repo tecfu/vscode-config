@@ -24,7 +24,10 @@ code --list-extensions | Out-File -FilePath vscode-extensions.list
 
 ### Import Extensions
 
-- Linux/Mac
+- Substitute `code` with `codium` for VSCodium
+- Substitute `code` with `antigravity` for Google Antigravity
+
+* Linux/Mac
 
 ```
 cat vscode-extensions.list | xargs -L 1 code --install-extension
@@ -68,8 +71,8 @@ There are several ways to address this:
 2.  **Temporarily Disable the Proxy**: If your organization's policy and network configuration allow it, you may be able to temporarily disconnect from the proxy (e.g., disconnect from the VPN or disable GlobalProtect). If you can do this and still have internet access, you can proceed with the installation. **Warning:** This may be against your company's IT policy and could disable your internet access.
 
 3.  **Workarounds (May Not Work)**: In some cases, you can bypass the SSL check. These methods are not guaranteed to work in highly restrictive environments.
-    *   **Setting in `settings.json`**: Add `"http.proxyStrictSSL": false` to your `settings.json` file.
-    *   **Environment Variable**: Set the `NODE_TLS_REJECT_UNAUTHORIZED=0` environment variable in your terminal session before running the installation command.
+    - **Setting in `settings.json`**: Add `"http.proxyStrictSSL": false` to your `settings.json` file.
+    - **Environment Variable**: Set the `NODE_TLS_REJECT_UNAUTHORIZED=0` environment variable in your terminal session before running the installation command.
 
 ### Delete All Extensions
 
@@ -154,6 +157,15 @@ add Lock = Caps_Lock
 ```
 
 - Windows [ililim/dual-key-remap](https://github.com/ililim/dual-key-remap)
+
+## Google Antigravity
+
+This configuration includes settings specific to Google Antigravity, a VS Code fork.
+
+- `antigravity.marketplaceGalleryItemURL`: `https://marketplace.visualstudio.com/items`
+- `antigravity.marketplaceExtensionGalleryServiceURL`: `https://marketplace.visualstudio.com/_apis/public/gallery`
+
+These settings configure the IDE to use the official Visual Studio Marketplace for extensions.
 
 ## License
 
