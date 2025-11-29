@@ -1,381 +1,387 @@
 {
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.formatOnPaste": true,
-    "editor.fontSize": 14,
-    "editor.wordWrap": "on",
-    "eslint.format.enable": true,
-    "extensions.autoUpdate": false,
-    "files.restoreUndoStack": true,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+  "accessibility.voice.speechLanguage": "en-US",
+  "accessibility.voice.keywordActivation": "chatInContext",
+  "workbench.colorTheme": "Tokyo Night",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "antigravity.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
+  "antigravity.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "eslint.format.enable": true,
+  "extensions.autoUpdate": false,
+  "files.restoreUndoStack": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "json.schemaDownload.enable": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "keyboard.dispatch": "keyCode",
+  "nerdtree.hideSidebarWhenOpenFile": false,
+  "nerdtree.alwaysShowSidebar": true,
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.defaultProfile.osx": "JavaScript Debug Terminal",
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.validate.enable": true,
+  "vim.useCtrlKeys": true,
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-n>": false,
+    "<C-q>": false,
+    "<C-s>": false,
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "after": [
+        "^"
+      ]
     },
-    "json.schemaDownload.enable": true,
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "$"
+      ]
     },
-    "keyboard.dispatch": "keyCode",
-    "nerdtree.hideSidebarWhenOpenFile": false,
-    "nerdtree.alwaysShowSidebar": true,
-    "redhat.telemetry.enabled": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "tabnine.experimentalAutoImports": true,
-    "terminal.integrated.defaultProfile.osx": "JavaScript Debug Terminal",
-    "terminal.integrated.shell.osx": "/bin/bash",
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+    {
+      "before": [
+        "<leader>",
+        "j"
+      ],
+      "after": [
+        "<shift>",
+        "j"
+      ]
     },
-    "typescript.validate.enable": true,
-    "vim.useCtrlKeys": true,
-    "vim.leader": "<space>",
-    "vim.easymotion": true,
-    "vim.handleKeys": {
-        "<C-c>": false,
-        "<C-n>": false,
-        "<C-q>": false,
-        "<C-s>": false,
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "after": [
+        "i",
+        "<cr>",
+        "<esc>",
+        "k"
+      ]
     },
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                "<leader>",
-                "a"
-            ],
-            "after": [
-                "^"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                ";"
-            ],
-            "after": [
-                "$"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "j"
-            ],
-            "after": [
-                "<shift>",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "k"
-            ],
-            "after": [
-                "i",
-                "<cr>",
-                "<esc>",
-                "k"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "p"
-            ],
-            "after": [
-                "\"",
-                "+",
-                "p"
-            ]
-        },
-        {
-            "before": [
-                "<C-j>"
-            ],
-            "after": [
-                "1",
-                "0",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "<C-k>"
-            ],
-            "after": [
-                "1",
-                "0",
-                "k"
-            ]
-        },
-        {
-            "before": [
-                "gr"
-            ],
-            "commands": [
-                "editor.action.showReferences"
-            ],
-        },
-        {
-            "before": [
-                "<tab>"
-            ],
-            "commands": [
-                //"editor.action.hover"
-                "editor.debug.action.showDebugHover"
-            ],
-        },
-        // {
-        //     "before": [
-        //         "t"
-        //     ],
-        //     "commands": [
-        //         "workbench.action.focusSideBar"
-        //     ],
-        //     "when": "!sideBarFocus",
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "after": [
+        "\"",
+        "+",
+        "p"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "1",
+        "0",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "1",
+        "0",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "gr"
+      ],
+      "commands": [
+        "editor.action.showReferences"
+      ],
+    },
+    {
+      "before": [
+        "<tab>"
+      ],
+      "commands": [
+        //"editor.action.hover"
+        "editor.debug.action.showDebugHover"
+      ],
+    },
+    // {
+    //     "before": [
+    //         "t"
+    //     ],
+    //     "commands": [
+    //         "workbench.action.focusSideBar"
+    //     ],
+    //     "when": "!sideBarFocus",
+    // },
+    {
+      "before": [
+        "t"
+      ],
+      "commands": [
+        // { // Unbind unconditional default using "minus" (-) before command
+        //     "command": "-workbench.action.focusSideBar"
         // },
         {
-            "before": [
-                "t"
-            ],
-            "commands": [
-                // { // Unbind unconditional default using "minus" (-) before command
-                //     "command": "-workbench.action.focusSideBar"
-                // },
-                {
-                    "command": "workbench.action.toggleSidebarVisibility",
-                },
-                // { // Move focus to the SideBar if not (!) there
-                //     "when": "!sideBarVisible",
-                //     "command": "workbench.action.focusSideBar"
-                // },
-                // { // Move focus to the Editor, if currently in the SideBar
-                //     "when": "sideBarVisible",
-                //     "command": "workbench.action.focusActiveEditorGroup"
-                // },
-            ],
+          "command": "workbench.action.toggleSidebarVisibility",
         },
-        // extension keybindings
-        {
-            "before": [
-                "m",
-                "a"
-            ],
-            "commands": [
-                "bookmarks.toggle"
-            ],
-        },
-        {
-            "before": [
-                "m",
-                "j"
-            ],
-            "commands": [
-                "bookmarks.jumpToNext"
-            ],
-        },
-        {
-            "before": [
-                "m",
-                "k"
-            ],
-            "commands": [
-                "bookmarks.jumpToPrevious"
-            ],
-        },
-        // {
-        //     "before": [
-        //         "gi"
-        //     ],
-        //     "commands": [
-        //         "editor.action.showDefinitionPreviewHover"
-        //     ],
+        // { // Move focus to the SideBar if not (!) there
+        //     "when": "!sideBarVisible",
+        //     "command": "workbench.action.focusSideBar"
         // },
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "J"
-            ],
-            "commands": [
-                "workbench.action.previousEditorInGroup"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "workbench.action.nextEditorInGroup"
-            ]
-        },
-        {
-            "before": [
-                "f"
-            ],
-            "after": [
-                "leader",
-                "leader",
-                "s"
-            ]
-        },
-        {
-            "before": [
-                "W"
-            ],
-            "commands": [
-                ":q!"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "l"
-            ],
-            "commands": [
-                "editor.action.formatDocument",
-                "eslint.executeAutofix"
-            ]
-        },
-    ],
-    "vim.operatorPendingModeKeyBindings": [
-        {
-            "before": [
-                "<leader>",
-                "a"
-            ],
-            "after": [
-                "^"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                ";"
-            ],
-            "after": [
-                "$"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindings": [
-        {
-            "before": [
-                "<leader>",
-                "a"
-            ],
-            "after": [
-                "^"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                ";"
-            ],
-            "after": [
-                "$"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "l"
-            ],
-            "commands": [
-                "editor.action.formatSelection"
-            ]
-        },
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                ">"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        {
-            "before": [
-                "<"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ]
-        },
-        {
-            "before": [
-                "<C-j>"
-            ],
-            "after": [
-                "1",
-                "0",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "<C-k>"
-            ],
-            "after": [
-                "1",
-                "0",
-                "k"
-            ]
-        }
-    ],
-    "vim.foldfix": true,
-    "vim.statusBarColors.insert": "",
-    "vim.commandLineModeKeyBindings": [
-    
-    ],
-    "vim.commandLineModeKeyBindingsNonRecursive": [],
-    "window.zoomLevel": 1.0,
-    "terminal.integrated.fontSize": 14,
-    "workbench.colorCustomizations": {
-        //"tab.activeBorder": "#ff0000",
-        "tab.activeBackground": "#26549e"
+        // { // Move focus to the Editor, if currently in the SideBar
+        //     "when": "sideBarVisible",
+        //     "command": "workbench.action.focusActiveEditorGroup"
+        // },
+      ],
     },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "debug.console.fontSize": 10,
-    "interactiveSession.editor.fontSize": 14,
-    "scm.inputFontSize": 10,
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+    // extension keybindings
+    {
+      "before": [
+        "m",
+        "a"
+      ],
+      "commands": [
+        "bookmarks.toggle"
+      ],
     },
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
+    {
+      "before": [
+        "m",
+        "j"
+      ],
+      "commands": [
+        "bookmarks.jumpToNext"
+      ],
     },
-    "yaml.format.enable": true,
-    "yaml.trace.server": "verbose",
-    "yaml.customTags": [
-        "!And scalar",
-        "!If scalar",
-        "!Not",
-        "!Equals scalar",
-        "!Or scalar",
-        "!FindInMap scalar",
-        "!Base64",
-        "!Cidr",
-        "!Ref",
-        "!Sub",
-        "!GetAtt sequence",
-        "!GetAZs",
-        "!ImportValue sequence",
-        "!Select sequence",
-        "!Split sequence",
-        "!Join sequence"
-    ],
-    "terminal.integrated.defaultProfile.linux": "JavaScript Debug Terminal",
-    "workbench.editorAssociations": {
-        "*.STL": "stlViewer.previewEditor"
+    {
+      "before": [
+        "m",
+        "k"
+      ],
+      "commands": [
+        "bookmarks.jumpToPrevious"
+      ],
     },
-    "editor.defaultFormatter": null,
-    "refactai.addressURL": "Refact",
-    "refactai.apiKey": "ui0Hm04yuByDCLnWJROy5FC2",
-    "remote.defaultExtensionsIfInstalledLocally": [
-        "GitHub.copilot",
-        "GitHub.copilot-chat",
-        "GitHub.vscode-pull-request-github"
-    ],
-    "github.copilot.nextEditSuggestions.enabled": true
+    // {
+    //     "before": [
+    //         "gi"
+    //     ],
+    //     "commands": [
+    //         "editor.action.showDefinitionPreviewHover"
+    //     ],
+    // },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "J"
+      ],
+      "commands": [
+        "workbench.action.previousEditorInGroup"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "workbench.action.nextEditorInGroup"
+      ]
+    },
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "W"
+      ],
+      "commands": [
+        ":q!"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+        "editor.action.formatDocument",
+        "eslint.executeAutofix"
+      ]
+    },
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "$"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+        "editor.action.formatSelection"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "1",
+        "0",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "1",
+        "0",
+        "k"
+      ]
+    }
+  ],
+  "vim.foldfix": true,
+  "vim.statusBarColors.insert": "",
+  "vim.commandLineModeKeyBindings": [],
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "window.zoomLevel": 1.0,
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorCustomizations": {
+    //"tab.activeBorder": "#ff0000",
+    "tab.activeBackground": "#26549e"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "debug.console.fontSize": 10,
+  "interactiveSession.editor.fontSize": 14,
+  "scm.inputFontSize": 10,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "yaml.format.enable": true,
+  "yaml.trace.server": "verbose",
+  "yaml.customTags": [
+    "!And scalar",
+    "!If scalar",
+    "!Not",
+    "!Equals scalar",
+    "!Or scalar",
+    "!FindInMap scalar",
+    "!Base64",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!GetAtt sequence",
+    "!GetAZs",
+    "!ImportValue sequence",
+    "!Select sequence",
+    "!Split sequence",
+    "!Join sequence"
+  ],
+  "terminal.integrated.defaultProfile.linux": "JavaScript Debug Terminal",
+  "workbench.editorAssociations": {
+    "*.STL": "stlViewer.previewEditor"
+  },
+  "editor.defaultFormatter": null,
+  "refactai.addressURL": "Refact",
+  "refactai.apiKey": "ui0Hm04yuByDCLnWJROy5FC2",
+  "remote.defaultExtensionsIfInstalledLocally": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "github.copilot.nextEditSuggestions.enabled": true
 }
