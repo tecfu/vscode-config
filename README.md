@@ -142,6 +142,28 @@ Type: "Open Keyboard Shortcuts" (JSON) command.
 Select `Open Keyboard Shortcuts (JSON)`
 Replace with keybindings.json from this repo
 
+### Symbolic Linking (Linux)
+
+To make this repository the source of truth for your configuration, you can symbolically link the `settings.json` and `keybindings.json` files. This ensures that any changes you make in the editor are reflected in the repository, and vice-versa.
+
+**Warning**: This will overwrite your existing local configuration. Back up your current files if you have settings you want to keep.
+
+#### VS Code
+
+```bash
+mkdir -p ~/.config/Code/User
+ln -sf ~/dotfiles/vscode-config/settings.json ~/.config/Code/User/settings.json
+ln -sf ~/dotfiles/vscode-config/keybindings.json ~/.config/Code/User/keybindings.json
+```
+
+#### Google Antigravity
+
+```bash
+mkdir -p ~/.config/Antigravity/User
+ln -sf ~/dotfiles/vscode-config/settings.json ~/.config/Antigravity/User/settings.json
+ln -sf ~/dotfiles/vscode-config/keybindings.json ~/.config/Antigravity/User/keybindings.json
+```
+
 ## Optional
 
 ### Suggested: Remap ESC to CAPS LOCK

@@ -152,7 +152,6 @@
   },
   {
     "key": "shift+w",
-    "when": "editorTextFocus == false && !inputFocus",
     "command": "workbench.action.closeActiveEditor"
   },
   {
