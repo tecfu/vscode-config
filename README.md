@@ -152,16 +152,16 @@ To make this repository the source of truth for your configuration, you can symb
 
 ```bash
 mkdir -p ~/.config/Code/User
-ln -sf ~/dotfiles/vscode-config/settings.json ~/.config/Code/User/settings.json
-ln -sf ~/dotfiles/vscode-config/keybindings.json ~/.config/Code/User/keybindings.json
+ln -sf ~/vscode-config/settings.json ~/.config/Code/User/settings.json
+ln -sf ~/vscode-config/keybindings.json ~/.config/Code/User/keybindings.json
 ```
 
 #### Google Antigravity
 
 ```bash
 mkdir -p ~/.config/Antigravity/User
-ln -sf ~/dotfiles/vscode-config/settings.json ~/.config/Antigravity/User/settings.json
-ln -sf ~/dotfiles/vscode-config/keybindings.json ~/.config/Antigravity/User/keybindings.json
+ln -sf ~/vscode-config/settings.json ~/.config/Antigravity/User/settings.json
+ln -sf ~/vscode-config/keybindings.json ~/.config/Antigravity/User/keybindings.json
 ```
 
 ## Optional
