@@ -150,10 +150,21 @@
     "command": "workbench.action.terminal.clear",
     "when": "terminal.active"
   },
+  // Antigravity doesn't change any ui state with chat panel is in focus. Checked with Ctrl+P, Developer: Inspect Context Keys
   {
-    "key": "shift+w",
+    "key": "ctrl+w",
+    "when": "editorFocus || inputFocus == false",
     "command": "workbench.action.closeActiveEditor"
   },
+  //{
+  //  "key": "shift+w",
+  //  "command": "runCommands",
+  //  "when": "editorFocus",
+  //  "args": {
+  //    "commands": [
+  //      "workbench.action.closeActiveEditor"
+  //    ]
+  //}
   {
     "key": "ctrl+t",
     "command": "workbench.action.files.newUntitledFile"
