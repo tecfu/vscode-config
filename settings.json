@@ -383,5 +383,10 @@
     "GitHub.copilot-chat",
     "GitHub.vscode-pull-request-github"
   ],
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.tools.global.autoApprove": true,
+  "git.openRepositoryInParentFolders": "never",
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false
 }
