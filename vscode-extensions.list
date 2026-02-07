@@ -10,9 +10,8 @@ github.vscode-github-actions
 golang.go
 gruntfuggly.todo-tree
 hashicorp.terraform
-kilocode.kilo-code
 kisstkondoros.vscode-codemetrics
-mattflower.aider
+marp-team.marp-vscode
 mechatroner.rainbow-csv
 ms-azuretools.vscode-containers
 ms-azuretools.vscode-docker
@@ -30,7 +29,6 @@ ms-vscode.live-server
 ms-vscode.vscode-speech
 ms-vsliveshare.vsliveshare
 mtsmfm.vscode-stl-viewer
-mxsdev.typescript-explorer
 qhoekman.language-plantuml
 redhat.vscode-yaml
 rmoff.ksql
