@@ -1,5 +1,41 @@
 # vscode-config
 
+## Install
+
+Use `INSTALL.sh` to symlink `settings.json` and `keybindings.json` into your editor's user config directory, and to install the extensions listed in `vscode-extensions.list`.
+
+```bash
+./INSTALL.sh [--os linux|windows] [--platform vscode|vscodium|antigravity] [--skip-extensions]
+```
+
+Defaults: `--os linux --platform vscode`
+
+### Examples
+
+```bash
+# Linux + VS Code (defaults)
+./INSTALL.sh
+
+# Linux + VSCodium
+./INSTALL.sh --platform vscodium
+
+# Linux + Google Antigravity
+./INSTALL.sh --platform antigravity
+
+# Windows + VS Code (run from Git Bash)
+./INSTALL.sh --os windows --platform vscode
+
+# Windows + VSCodium
+./INSTALL.sh --os windows --platform vscodium
+
+# Skip installing extensions, just link settings/keybindings
+./INSTALL.sh --skip-extensions
+```
+
+Run `./INSTALL.sh --help` for the full list of options.
+
+**Note (Windows)**: run `INSTALL.sh` from Git Bash so `APPDATA` resolves correctly.
+
 ## Beware
 
 - VSCode gives no option to persist the undo stack between sessions. If you want undo intact, never close VSCode.
